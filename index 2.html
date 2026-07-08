@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keywana's Cub | Gender Reveal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Great+Vibes&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="phone-card">
+    <section class="hero" id="top">
+      <div class="sun"></div>
+      <div class="sparkles" aria-hidden="true"></div>
+      <div class="leaf leaf-left">🌿</div>
+      <div class="leaf leaf-right">🌿</div>
+      <div class="balloons">🎈</div>
+      <div class="rock"></div>
+      <div class="lion-family" aria-label="lion family silhouettes">
+        <span class="lion adult">🦁</span><span class="lion cub">🦁</span>
+      </div>
+      <div class="hero-title">
+        <div class="crown">♛</div>
+        <h1>Keywana's <span>Cub</span></h1>
+        <p>A little cub is on the way!</p>
+      </div>
+      <button class="enter" onclick="document.querySelector('#invite').scrollIntoView({behavior:'smooth'})">✨ Enter the Pride ✨</button>
+    </section>
+
+    <section class="invite" id="invite">
+      <div class="gold-paws">🐾 &nbsp; 🐾</div>
+      <p class="script">Join us for a</p>
+      <h2>Royal Gender Reveal</h2>
+      <p class="small">Honoring</p>
+      <h3>Keywana <span>&</span> Bradley</h3>
+      <p class="question">Will our little cub be a<br><strong>Prince</strong> or <strong>Princess?</strong></p>
+      <p class="tiny">We can't wait to find out!</p>
+
+      <div class="details">
+        <div><b>📅 Saturday</b><span>August 29, 2026</span></div>
+        <div><b>🕒 Time</b><span>3:00 PM</span></div>
+        <div><b>📍 Pride Rock</b><span>Keywana's Backyard<br>205 Kingnut Dr.<br>Columbia, SC 29209</span></div>
+        <div><b>💌 RSVP By</b><span>August 10, 2026<br>803-722-8645</span></div>
+      </div>
+
+      <div class="buttons">
+        <a href="sms:8037228645?body=Hi%20Keywana!%20I%20am%20RSVPing%20for%20the%20gender%20reveal." class="btn">💌 RSVP Now</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=205%20Kingnut%20Dr%20Columbia%20SC%2029209" class="btn" target="_blank">📍 Directions</a>
+        <a href="#registry" class="btn">🎁 Registry</a>
+        <a id="calendarLink" class="btn" target="_blank">📅 Add to Calendar</a>
+      </div>
+    </section>
+
+    <section class="countdown">
+      <p>The big day is almost here!</p>
+      <div class="timebox">
+        <div><strong id="days">0</strong><span>Days</span></div>
+        <div><strong id="hours">0</strong><span>Hours</span></div>
+        <div><strong id="minutes">0</strong><span>Minutes</span></div>
+        <div><strong id="seconds">0</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="registry" id="registry">
+      <h2>Registry</h2>
+      <p>Registry links coming soon. For now, text Keywana with any questions.</p>
+      <a href="tel:8037228645" class="call">Call Keywana</a>
+    </section>
+
+    <footer>
+      <p class="script">The Pride Is Growing</p>
+      <p>and so is our love.</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
